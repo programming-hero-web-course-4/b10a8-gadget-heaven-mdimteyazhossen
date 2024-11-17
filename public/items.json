@@ -1,39 +1,5 @@
 [
       {
-        "product_id": "c001",
-        "product_title": "Alienware Aurora R15 Gaming Desktop",
-        "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/alienware-aurora-r15-intel/media-gallery/lunar-light-wh-clear-cryo-tech/desktop-alienware-aurora-r15-white-cryo-clear-panel-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=347&qlt=100,1&resMode=sharp2&size=347,402&chrss=full",
-        "category": "Computers",
-        "price": 2499.99,
-        "description": "High-performance gaming desktop with Intel Core i9 and NVIDIA GeForce RTX 4090.",
-        "specifications": [
-          "Intel Core i9-13900K",
-          "32GB DDR5 RAM",
-          "NVIDIA GeForce RTX 4090",
-          "2TB SSD + 2TB HDD",
-          "Windows 11"
-        ],
-        "availability": true,
-        "rating": 5
-      },
-      {
-        "product_id": "c002",
-        "product_title": "Microsoft Surface Studio 2",
-        "product_image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/microsoft/surface-studio-2-plus/surface-studio-2-plus-01-500x500.webp",
-        "category": "Computers",
-        "price": 3999.99,
-        "description": "All-in-one desktop with 28-inch PixelSense display, Intel i7, and NVIDIA GTX 1070.",
-        "specifications": [
-          "Intel Core i7-7820HQ",
-          "32GB RAM",
-          "1TB SSD",
-          "28-inch PixelSense 4K Display",
-          "Windows 10 Pro"
-        ],
-        "availability": true,
-        "rating": 4
-      },
-      {
         "product_id": "l001",
         "product_title": "Apple MacBook Pro 16-inch (2023)",
         "product_image": "https://mcsolution.com.bd/wp-content/uploads/2023/11/MacBook-Pro-M3-2023-Silver-Price-in-Bangladesh-MC-Solution-BD.webp",
@@ -134,6 +100,40 @@
         ],
         "availability": true,
         "rating": 5
+      },
+      {
+        "product_id": "c001",
+        "product_title": "Alienware Aurora R15 Gaming Desktop",
+        "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/alienware-aurora-r15-intel/media-gallery/lunar-light-wh-clear-cryo-tech/desktop-alienware-aurora-r15-white-cryo-clear-panel-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=347&qlt=100,1&resMode=sharp2&size=347,402&chrss=full",
+        "category": "Computers",
+        "price": 2499.99,
+        "description": "High-performance gaming desktop with Intel Core i9 and NVIDIA GeForce RTX 4090.",
+        "specifications": [
+          "Intel Core i9-13900K",
+          "32GB DDR5 RAM",
+          "NVIDIA GeForce RTX 4090",
+          "2TB SSD + 2TB HDD",
+          "Windows 11"
+        ],
+        "availability": true,
+        "rating": 5
+      },
+      {
+        "product_id": "c002",
+        "product_title": "Microsoft Surface Studio 2",
+        "product_image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/microsoft/surface-studio-2-plus/surface-studio-2-plus-01-500x500.webp",
+        "category": "Computers",
+        "price": 3999.99,
+        "description": "All-in-one desktop with 28-inch PixelSense display, Intel i7, and NVIDIA GTX 1070.",
+        "specifications": [
+          "Intel Core i7-7820HQ",
+          "32GB RAM",
+          "1TB SSD",
+          "28-inch PixelSense 4K Display",
+          "Windows 10 Pro"
+        ],
+        "availability": true,
+        "rating": 4
       },
       {
         "product_id": "p001",

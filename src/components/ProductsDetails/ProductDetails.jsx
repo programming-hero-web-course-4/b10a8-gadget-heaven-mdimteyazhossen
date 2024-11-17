@@ -60,7 +60,7 @@ const ProductDetails = ({toast}) => {
     const handleButtonClick = (id) => {
       setDisabledButtons((prevState) => ({
         ...prevState,
-        [id]: true,  // Disable the button for this specific card
+        [id]: true,  
       }));
       console.log(id)
     };
