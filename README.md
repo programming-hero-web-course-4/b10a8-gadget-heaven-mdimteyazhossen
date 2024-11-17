@@ -1,6 +1,6 @@
 # Gadget Heaven
 
-# **Live Website**: [gadget-heaven-127.surge.sh](gadget-heaven-127.surge.sh)
+# **Live Website**: [https://gadget-heaven-127.surge.sh/](https://gadget-heaven-127.surge.sh/)
 
 
 ## Requirements Document

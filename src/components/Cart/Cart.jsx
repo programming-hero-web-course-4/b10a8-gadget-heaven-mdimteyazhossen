@@ -10,19 +10,13 @@ const Cart = ({cartList,setcartList,modalImg,allProducts, toast}) => {
   }
   let p=0;
   cartList.map( pro =>{
-    // setCoin(coin + pro.price);
     coin+=pro.price;
     
   })
   p=coin
   console.log(p)
   const handleRemove =()=>{
-      console.log(p)
-      // document.getElementById('my_modal_5').showModal()
-      // setCoin(0);
-      // setcartList([])
       localStorage.removeItem('cart-list')
-      console.log("coin")
   }
   const handlemodal =() =>{
     document.getElementById('my_modal_5').showModal()
