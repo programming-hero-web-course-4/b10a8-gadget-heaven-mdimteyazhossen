@@ -1,0 +1,208 @@
+[
+      {
+        "product_id": "c001",
+        "product_title": "Alienware Aurora R15 Gaming Desktop",
+        "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/alienware-aurora-r15-intel/media-gallery/lunar-light-wh-clear-cryo-tech/desktop-alienware-aurora-r15-white-cryo-clear-panel-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=347&qlt=100,1&resMode=sharp2&size=347,402&chrss=full",
+        "category": "Computers",
+        "price": 2499.99,
+        "description": "High-performance gaming desktop with Intel Core i9 and NVIDIA GeForce RTX 4090.",
+        "specifications": [
+          "Intel Core i9-13900K",
+          "32GB DDR5 RAM",
+          "NVIDIA GeForce RTX 4090",
+          "2TB SSD + 2TB HDD",
+          "Windows 11"
+        ],
+        "availability": true,
+        "rating": 5
+      },
+      {
+        "product_id": "c002",
+        "product_title": "Microsoft Surface Studio 2",
+        "product_image": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/microsoft/surface-studio-2-plus/surface-studio-2-plus-01-500x500.webp",
+        "category": "Computers",
+        "price": 3999.99,
+        "description": "All-in-one desktop with 28-inch PixelSense display, Intel i7, and NVIDIA GTX 1070.",
+        "specifications": [
+          "Intel Core i7-7820HQ",
+          "32GB RAM",
+          "1TB SSD",
+          "28-inch PixelSense 4K Display",
+          "Windows 10 Pro"
+        ],
+        "availability": true,
+        "rating": 4
+      },
+      {
+        "product_id": "l001",
+        "product_title": "Apple MacBook Pro 16-inch (2023)",
+        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2023/11/MacBook-Pro-M3-2023-Silver-Price-in-Bangladesh-MC-Solution-BD.webp",
+        "category": "Laptops",
+        "price": 2499.99,
+        "description": "Apple's powerful 16-inch MacBook Pro with M2 Pro chip, 16GB RAM, and 512GB SSD.",
+        "specifications": [
+          "Apple M2 Pro Chip",
+          "16GB RAM",
+          "512GB SSD",
+          "16-inch Retina Display",
+          "macOS Ventura"
+        ],
+        "availability": true,
+        "rating": 4
+      },
+      {
+        "product_id": "l002",
+        "product_title": "HP Spectre x360 14",
+        "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/14-e2027tu/14-e2027tu-01-500x500.webp",
+        "category": "Laptops",
+        "price": 1399.99,
+        "description": "Premium 2-in-1 convertible laptop with Intel Core i7 and a 13.5-inch OLED display.",
+        "specifications": [
+          "Intel Core i7-1165G7",
+          "16GB RAM",
+          "512GB SSD",
+          "13.5-inch 3K OLED Display",
+          "Windows 11"
+        ],
+        "availability": true,
+        "rating": 5
+      },
+      {
+        "product_id": "l003",
+        "product_title": "Apple MacBook Air M2 (2023)",
+        "product_image": "https://ryans.com/storage/products/main/apple-macbook-air-2023-apple-m2-chip-153-inch-11686110627.webp",
+        "category": "Laptops",
+        "price": 1199.99,
+        "description": "Lightweight laptop powered by Apple's M2 chip with 8GB RAM and 256GB SSD.",
+        "specifications": [
+          "Apple M2 Chip",
+          "8GB RAM",
+          "256GB SSD",
+          "13.6-inch Retina Display",
+          "macOS Ventura"
+        ],
+        "availability": true,
+        "rating": 5
+      },
+      {
+        "product_id": "l004",
+        "product_title": "Microsoft Surface Pro 9",
+        "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-pro-9/surface-pro-9-forest-green-01-500x500.webp",
+        "category": "Laptops",
+        "price": 1799.99,
+        "description": "Versatile 2-in-1 tablet with Intel Core i7, 16GB RAM, and 512GB SSD.",
+        "specifications": [
+          "Intel Core i7-1255U",
+          "16GB RAM",
+          "512GB SSD",
+          "13-inch PixelSense Flow Display",
+          "Windows 11 Pro"
+        ],
+        "availability": false,
+        "rating": 4
+      },
+      {
+        "product_id": "l005",
+        "product_title": "Dell XPS 13 Laptop",
+        "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/13-9340/media-gallery/silver/touch/notebook-xps-13-9340-t-sl-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=679&qlt=100,1&resMode=sharp2&size=679,402&chrss=full",
+        "category": "Laptops",
+        "price": 1499.99,
+        "description": "Dell XPS 13 with Intel Core i7, 16GB RAM, and a 512GB SSD for performance and portability.",
+        "specifications": [
+          "Intel Core i7-1165G7",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch 4K UHD+ Display",
+          "Windows 11"
+        ],
+        "availability": true,
+        "rating": 3
+      },
+      {
+        "product_id": "l006",
+        "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/LENOVO-Thinkpad-13-1.jpg",
+        "category": "Laptops",
+        "price": 1899.99,
+        "description": "Lenovo ThinkPad X1 Carbon, an ultra-lightweight business laptop with Intel i7, 16GB RAM, and 512GB SSD.",
+        "specifications": [
+          "Intel Core i7-1265U",
+          "16GB RAM",
+          "512GB SSD",
+          "14-inch Full HD Display",
+          "Windows 11 Pro"
+        ],
+        "availability": true,
+        "rating": 5
+      },
+      {
+        "product_id": "p001",
+        "product_title": "iPhone 15 Pro Max",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(1)-6945.jpg",
+        "category": "Phones",
+        "price": 1099.99,
+        "description": "Apple iPhone 15 Pro Max with A17 Bionic chip, 256GB storage, and 48MP camera.",
+        "specifications": [
+          "A17 Bionic Chip",
+          "256GB Storage",
+          "48MP Camera",
+          "6.7-inch Super Retina XDR Display",
+          "iOS 17"
+        ],
+        "availability": true,
+        "rating": 4
+      },
+      {
+        "product_id": "p002",
+        "product_title": "Samsung Galaxy S24 Ultra",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S24-Ultra-Titanium-Gray-8816.jpg",
+        "category": "Phones",
+        "price": 1399.99,
+        "description": "Samsung Galaxy S24 Ultra with Snapdragon 8 Gen 3, 12GB RAM, and 200MP camera.",
+        "specifications": [
+          "Snapdragon 8 Gen 3",
+          "12GB RAM",
+          "200MP Camera",
+          "6.8-inch Dynamic AMOLED Display",
+          "Android 14"
+        ],
+        "availability": true,
+        "rating": 4
+      },
+      {
+        "product_id": "sw001",
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Apple-Watch-Series-9-(6)-5351.jpg",
+        "category": "Smart Watches",
+        "price": 399.99,
+        "description": "Apple Watch Series 9 with improved health tracking and always-on Retina display.",
+        "specifications": [
+          "S9 SiP Chip",
+          "Always-on Retina Display",
+          "Health and Fitness Tracking",
+          "50m Water Resistance",
+          "watchOS 10"
+        ],
+        "availability": true,
+        "rating": 4
+      },
+      {
+        "product_id": "sw002",
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-Watch6-Graphite-6125.jpg",
+        "category": "Smart Watches",
+        "price": 299.99,
+        "description": "Samsung Galaxy Watch 6 with Super AMOLED display, ECG, and body composition analysis.",
+        "specifications": [
+          "Super AMOLED Display",
+          "ECG Monitoring",
+          "Body Composition Analysis",
+          "GPS and Fitness Tracking",
+          "WearOS Powered"
+        ],
+        "availability": true,
+        "rating": 5
+      }
+]
+
+  

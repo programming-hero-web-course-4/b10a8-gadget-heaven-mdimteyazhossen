@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner-background{
+    background-color: rgb(149, 56, 226);
+}
+.button-color{
+    color: rgb(149, 56, 226);
+    border-color: rgb(149, 56, 226);
+}
+.bg-color{
+    background-color: rgb(247, 247, 247);
+}

@@ -1,0 +1,60 @@
+[
+      {
+        "customerName": "John Doe",
+        "customerImage": "https://m.media-amazon.com/images/I/71iGgstrahL._SY250_.jpg",
+        "customerFeedback": "Great performance and sound, but could use better battery life.",
+        "rating": 5,
+        "productName": "Bluetooth Smart Speaker"
+      },
+      {
+        "customerName": "Sarah Miller",
+        "customerImage": "https://m.media-amazon.com/images/I/61Y4ZBQ42sL.jpg",
+        "customerFeedback": "Very easy to use, works seamlessly with my phone.",
+        "rating": 5,
+        "productName": "Smartwatch"
+      },
+      {
+        "customerName": "Kevin White",
+        "customerImage": "https://cdn.mos.cms.futurecdn.net/jNNE6sr3QAk5nWMqa9zPv4-1024-80.jpg",
+        "customerFeedback": "The camera quality is fantastic, but the phone gets hot after extended use.",
+        "rating": 5,
+        "productName": "Smartphone X7"
+      },
+      {
+        "customerName": "Emily Johnson",
+        "customerImage": "https://m.media-amazon.com/images/I/71IHfAroiJL._SY250_.jpg",
+        "customerFeedback": "Amazing gadget! Makes my life so much easier for remote work.",
+        "rating": 5,
+        "productName": "Wireless Keyboard & Mouse Combo"
+      },
+      {
+        "customerName": "Michael Brown",
+        "customerImage": "https://m.media-amazon.com/images/I/71fh9K8LPiL.jpg",
+        "customerFeedback": "Pretty decent performance, but the screen could be brighter.",
+        "rating": 5,
+        "productName": "Portable Projector"
+      },
+      {
+        "customerName": "Olivia Green",
+        "customerImage": "https://m.media-amazon.com/images/I/71uCvDEeC9L._SY250_.jpg",
+        "customerFeedback": "Good sound quality, but the battery life is just average.",
+        "rating": 5,
+        "productName": "Wireless Earbuds"
+      },
+      {
+        "customerName": "Daniel Lee",
+        "customerImage": "https://m.media-amazon.com/images/I/711iGDSs5WL._SY250_.jpg",
+        "customerFeedback": "Sleek design, fast charging, and excellent durability.",
+        "rating": 5,
+        "productName": "Power Bank 10,000mAh"
+      },
+      {
+        "customerName": "Sophia Clark",
+        "customerImage": "https://m.media-amazon.com/images/I/71612Qj0dCL._SY250_.jpg",
+        "customerFeedback": "Love the features and easy connectivity, but it's a bit bulky for my taste.",
+        "rating": 2,
+        "productName": "Smart Home Hub"
+      }
+]
+
+  
