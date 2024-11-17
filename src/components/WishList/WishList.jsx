@@ -5,13 +5,10 @@ const WishList = ({wishList,setwishList, allProducts, setcartList, toast}) => {
   const remove=(id)=>{
     let wish = JSON.parse(localStorage.getItem('wish-list'))  || [];
     wish = wish.filter(item => item !== id);
-    // setwishList(wish)
     localStorage.setItem('wish-list', JSON.stringify(wish));
-    // console.log(wish)
     const wishUpdate = allProducts.filter(product =>wish.includes
       (product.product_id)
     )
-    // // window.location.reload();
     setwishList(wishUpdate)
     toast.warn("remove product from wishList",{
       position: "top-right",
