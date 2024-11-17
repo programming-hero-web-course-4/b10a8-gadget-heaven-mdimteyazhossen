@@ -19,16 +19,11 @@ const WishList = ({wishList,setwishList, allProducts, setcartList, toast}) => {
   }
   const addCart =(id)=>{
     addToProduct(id)
-    // setcartList([])
     let cart = JSON.parse(localStorage.getItem('cart-list'));
-    // cart = cart.filter(item => item == id);
-    // localStorage.setItem('cart-list', JSON.stringify(cart));
     const cartUpdate = allProducts.filter(product =>cart.includes
       (product.product_id)
     )
-    // // // window.location.reload();
     setcartList(cartUpdate);
-    // console.log(cart)
   }
   return (
     <div>

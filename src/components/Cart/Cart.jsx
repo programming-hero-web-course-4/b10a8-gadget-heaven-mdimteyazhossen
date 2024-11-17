@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Cart = ({cartList,setcartList,modalImg,allProducts, toast}) => {
   const [dis, setDis] =useState(false)
-  // const [sort, setSort] = useState('')
   let coin=0;
   const handleSort =()=>{
     setcartList([...cartList].sort((a,b)=>b.price-a.price))
@@ -33,15 +32,12 @@ const Cart = ({cartList,setcartList,modalImg,allProducts, toast}) => {
     const cartUpdate = allProducts.filter(product =>cart.includes
       (product.product_id)
     )
-    // // // window.location.reload();
     setcartList(cartUpdate);
-    // console.log(cart)
     toast.warn("remove product from cartList",{
       position:"top-right"
     })
   }
   useEffect(() => {
-    // If the cart is empty (length 0), setDis to true. Otherwise, setDis to false.
     setDis(cartList.length === 0);
   }, [cartList]);
   console.log(dis)
