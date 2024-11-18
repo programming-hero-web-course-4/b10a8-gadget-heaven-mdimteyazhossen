@@ -1,13 +1,21 @@
 import React, { useEffect,useState } from 'react'
 import { Helmet } from 'react-helmet';
+import { useLoaderData } from 'react-router-dom';
 
 const Feedback = () => {
     const [Feedback, setFeedback] =useState([]);
+    // useEffect(() => {
+    //     fetch('./feedback.json')
+    //     .then(res => res.json())
+    //     .then(data => setFeedback(data))
+    // },[])
+    const data = useLoaderData();
+
     useEffect(() => {
-        fetch('./feedback.json')
-        .then(res => res.json())
-        .then(data => setFeedback(data))
-    },[])
+      if (data && data.length > 0) {
+        setFeedback(data); // Update state with data from the loader
+      }
+    }, [data]);
     const {rating} = Feedback;
     const ratingFeedback=(index)=>{
         return(

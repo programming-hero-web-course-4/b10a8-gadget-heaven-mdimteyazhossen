@@ -45,10 +45,19 @@ const router = createBrowserRouter([
       },
       {
         path:'feedback',
-        element:<Feedback/>
+        element:<Feedback/>,
+        loader: ()=> fetch('/feedback.json')
+      },
+      {
+        path: '*', 
+        element: <ErrorPage />
       }
     ]
   },
+  {
+      path: '*',
+      element: <ErrorPage />
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
