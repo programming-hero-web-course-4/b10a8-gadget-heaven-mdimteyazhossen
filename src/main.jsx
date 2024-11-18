@@ -16,7 +16,7 @@ import banner from './assets/banner.jpg'
 import modalImg from './assets/Group.png'
 import ProductDetails from './components/ProductsDetails/ProductDetails';
 import Statistics from './components/Statistics/Statistics';
-import Feedback from './components/Customer Feedback/Feedback';
+import Feedback from './components/CustomerFeedback/Feedback';
 // import Cart from './components/Cart/Cart';
 const router = createBrowserRouter([
   {
@@ -44,10 +44,16 @@ const router = createBrowserRouter([
         loader: ()=> fetch('/items.json')
       },
       {
-        path:'feedback',
-        element:<Feedback/>,
-        loader: ()=> fetch('/feedback.json')
-      },
+        path: "feedback",
+        element: <Feedback />,
+        loader: async () => {
+          const response = await fetch('/feedbackData.json');
+          if (!response.ok) {
+            throw new Error('Failed to load feedback data');
+          }
+          return response.json();  // Ensure we parse the JSON data
+        },
+      },      
       {
         path: '*', 
         element: <ErrorPage />
